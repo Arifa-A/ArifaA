@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+
+public class AlphabetorNot {
+public static void main(String[] args){
+	Scanner scr=new Scanner(System.in);
+    char s=scr.next().charAt(0);
+	if(s>=(char)65 && s<=(char)90 || s>=(char)97 && s<=(char)122){
+	System.out.println("the given character is alphabet");
+	}
+	else{
+		System.out.println("the given character is not an alaphabet:");
+}
+}
+}
